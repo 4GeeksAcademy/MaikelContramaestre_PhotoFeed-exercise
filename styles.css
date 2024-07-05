@@ -1,0 +1,51 @@
+/* styles */
+body{
+    background:#bdbdbd;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    background:white;
+    padding:5px;
+
+}
+header h1{
+    font-family:"Actor", sans-serif;
+    margin: 0;
+}
+div.posteo{
+    background: white;
+    border-radius: 3%;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.posteo img{
+    width: 100%;
+}
+.posteo .posteoSec div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+.posteo .posteoSec div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: #bdbdbd;
+}
+.posteo h2,.posteo span{
+    font-family: "Handlee", cursive;
+}
+.posteo p{
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+.posteo h2, .posteo p{
+    padding: 5px;
+}   
+
+.container{
+    width: 600px;
+    margin: auto;
+}
